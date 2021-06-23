@@ -152,13 +152,13 @@
 
                                                         <li class="">
                                                             <p class="close-menu"></p>
-                                                            <a href="#" class="clearfix">
+                                                            <a href="index.php" class="clearfix">
                                                                 <strong>Home</strong>
                                                             </a>
                                                         </li>
                                                         <li class="">
                                                             <p class="close-menu"></p>
-                                                            <a href="#" class="clearfix">
+                                                            <a href="about-us.php" class="clearfix">
                                                                 <strong>About</strong>
                                                             </a>
                                                         </li>
@@ -295,7 +295,7 @@
                                                                                        href="sitemap.html">Site
                                                                                         Map</a></li>
                                                                                 <li><a class="subcategory_item"
-                                                                                       href="contact.html">Contact
+                                                                                       href="contact.php">Contact
                                                                                         us</a></li>
                                                                                 <li><a class="subcategory_item"
                                                                                        href="banner-effect.html">Banner
@@ -316,7 +316,7 @@
 
                                                         <li class="">
                                                             <p class="close-menu"></p>
-                                                            <a href="#" class="clearfix">
+                                                            <a href="contact.php" class="clearfix">
                                                                 <strong>Contact</strong>
                                                             </a>
                                                         </li>
