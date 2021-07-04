@@ -1,0 +1,134 @@
+Delivered-To: sumra785@gmail.com
+Received: by 2002:a05:6a10:f48a:0:0:0:0 with SMTP id p10csp761488pxx;
+        Thu, 24 Jun 2021 09:01:47 -0700 (PDT)
+X-Received: by 2002:a02:9a1a:: with SMTP id b26mr5253661jal.122.1624550506942;
+        Thu, 24 Jun 2021 09:01:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1624550506; cv=none;
+        d=google.com; s=arc-20160816;
+        b=mwgjWhwPT+2ujur/Ws+dPa2nIH9mNDW0aFK8aW8OJ33JcW1ezNfAWjbeaQZlYhIvMF
+         KCwkBNrNP3fRKM/NM97J8LSBcHs3Ct/Gd9GUAtNrq7qOuQxVTAtGjDWEaDZ4VHlFKt3d
+         aCwZwbKm9WR6NG2W/vXF5SeiHBAsY6c6/jXSrR+fU0gi9FGdp4p6NPxz3iQMoyTK5/J0
+         GDEcTJYIT5JzzgjNBAwsVVdFjEOR4D93XnMEHqlq/qpZI5oMt5s1cLviGK3vYzA4C9Jr
+         Vasv81uZ0xzXtxXzrVCOZnc+H7Ie62+UtMBP+XXYexOSko5/SoxRLjwy/q1FedDoUycu
+         OF+Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:message-id:reply-to:date:mime-version
+         :dkim-signature;
+        bh=EU9DCtXx8qe8P7nMc4+nCYq633JYXFbFUgp0tLj38VA=;
+        b=rF0xA66oHpVRNDx/aONbSBzxw+vITAxcnj24+8DjWby2G0YuGvXWqvEkhLTCQFdEZC
+         n9fzppArnWZPvdF8WNNv45qhgHuDrALCFmJDoUFR4fX+2t5MhW9CfViRO584vaJo6zAX
+         q6zo+3WJTwD2RDoT7gC7jd8QX+sS+O+V1+ZB3FLT4I4NKCKrnGUk2cke0XAOKjZ031nH
+         8QyLbv6Bv0PpQ41gPqC/CkrxDSbLVFxGZ8rSgMf0Jf4dDtZQALSfZsFsQs1QakWr3ZDj
+         f2JJL35NHuB50F9Yjq1nDghxuJ6Aip+QbjPlIsTTn80PBR3s/nvegBUUwfmczyfJ/hyS
+         H86w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=SXF3kDVX;
+       spf=pass (google.com: domain of 3aqzuybakccmlddshmfr-mnqdokxfnnfkd.bnlrtlq9ghefl9hk.bnl@chime-notifications.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3aqzUYBAKCCMLDDSHMFR-MNQDOKXFNNFKD.BNLRTLQ9gheFL9HK.BNL@chime-notifications.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+Return-Path: <3aqzUYBAKCCMLDDSHMFR-MNQDOKXFNNFKD.BNLRTLQ9gheFL9HK.BNL@chime-notifications.bounces.google.com>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])
+        by mx.google.com with SMTPS id a14sor1361157ilc.83.2021.06.24.09.01.46
+        for <sumra785@gmail.com>
+        (Google Transport Security);
+        Thu, 24 Jun 2021 09:01:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3aqzuybakccmlddshmfr-mnqdokxfnnfkd.bnlrtlq9ghefl9hk.bnl@chime-notifications.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=SXF3kDVX;
+       spf=pass (google.com: domain of 3aqzuybakccmlddshmfr-mnqdokxfnnfkd.bnlrtlq9ghefl9hk.bnl@chime-notifications.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3aqzUYBAKCCMLDDSHMFR-MNQDOKXFNNFKD.BNLRTLQ9gheFL9HK.BNL@chime-notifications.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:date:reply-to:message-id:subject:from:to;
+        bh=EU9DCtXx8qe8P7nMc4+nCYq633JYXFbFUgp0tLj38VA=;
+        b=SXF3kDVX4VKmOOdWK/7m88TbByNzgMVWPw57kVh2gGYMv5keRANXzspJv6npcNm7e3
+         Bc/+2yYTzS4XlGtLFtwK0hT2YKJ8nC4yb4pdwxaoJnX55YvxCjsuC/AfjrAD+yjO9HVT
+         zvCUG5iCwU/JvN+JxJBq9tDFGtz7C1KMvhRxa4IcT9YBoUpxXOYV2TaoPwP79Lc0g1Eg
+         EvxiV7Vyrd6ycyKmv9gKg+XCpucOtl04pUoY02Q1JEPlfMgQS7Rs7uIw/ISh1e2RTWOa
+         T8EFrKbJqWEn7xwSQAbx0ZG5b5Xg48JJG2o44Z+MCi6qmUFIgrBWamsPaH80NYqi/KIY
+         pL/A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:reply-to:message-id:subject
+         :from:to;
+        bh=EU9DCtXx8qe8P7nMc4+nCYq633JYXFbFUgp0tLj38VA=;
+        b=tyvNcvzI6bCI+4IPHpauSplEDF8LF5MVu3+mxholb1krENenkpHsAFPYlAYDr+02TJ
+         pipgcHvz9Zavr/L0gnmIWivrhBy/CiufJm2t03I2q5UISz9A4zh0sTNm5Qbe38bnxkGq
+         1EfjmVdJDwBT7DT9/uQ0hBia6sZ7gdB+eH85TM4K8RphCmiWE6K2Fgf+H18Xj+LgaLnL
+         frBSNOPr+zvhwCesOLZZ4y5hX5ab/K2/Y7euShoHUlNHTTwZySsSrj/xHN4XxmG0QtC7
+         vMQ1nN6LpDlgliWM62oHjfvtLcpijy31GGH/4kUU+NlKHxqQ3Xnt0NfScjJJjqJNoMm5
+         rntg==
+X-Gm-Message-State: AOAM531wo6X061n1kCSIDFgy6rpVtnU39Bd8Vj6kQigFdd45RizgGpYP
+	Q/5zY0tsv6UOwAtd5NKmhJtfB83YitNph2iGWQ==
+X-Google-Smtp-Source: ABdhPJxP09IHYOBhHQapS/VgF9We0/lOULqgNWNLi6X7lxAu6CJHM7OHPr7EzSRcmvSPgMH4xMqbUFcTmjTekuiKODAr
+MIME-Version: 1.0
+X-Received: by 2002:a05:6e02:c2e:: with SMTP id q14mr4215697ilg.2.1624550506748;
+ Thu, 24 Jun 2021 09:01:46 -0700 (PDT)
+Date: Thu, 24 Jun 2021 09:01:46 -0700
+Reply-To: Honor Fastener <honorfastener@gmail.com>
+X-Notifications: u3ua3xXwR3aq63ei2rRTYKIM
+Message-ID: <Y2gmR4WY3ghqaZnwX8T7eQ@notifications.google.com>
+Subject: Happening now: Honor Fastener is inviting you to a video meeting
+From: "Honor Fastener (via Google Meet)" <meetings-noreply@google.com>
+To: sumra785@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000dfe15205c58523ae"
+
+--000000000000dfe15205c58523ae
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Google Meet logo
+
+Honor Fastener <honorfastener@gmail.com> is inviting you to join a video  
+meeting happening now
+
+
+
+
+
+
+
+Join Meeting
+
+
+
+meet.google.com/gtc-jphq-rnk
+
+
+
+
+
+
+
+
+--000000000000dfe15205c58523ae
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><table style=3D"background-color: #f1f3f4; border-=
+spacing: 0; color: #202124; font-family: Roboto,Arial,Helvetica,sans-serif;=
+ font-weight: 400; padding-bottom: 40px; width: 662px;" lang=3D"en"><tr rol=
+e=3D"presentation"><td style=3D"padding: 32px 41px 0 41px"><img src=3D"http=
+s://www.gstatic.com/meet/meet_logo_email_7e1ae6f5c494d8c787ce3fa4a62a73ac.p=
+ng" alt=3D"Google Meet logo" style=3D"display: block; height: 40px; pointer=
+-events: auto; width: 105px;"></td></tr><tr><td style=3D"font-family: 'Goog=
+le Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif; font-size: 15px; li=
+ne-height: 32px; padding: 24px 41px;">Honor Fastener &lt;<a href=3D"mailto:=
+honorfastener@gmail.com" target=3D"_blank" style=3D"color: inherit; text-de=
+coration: none;">honorfastener@gmail.com</a>&gt; is inviting you to join a =
+video meeting happening now</td></tr><tr><td><table style=3D"background: #f=
+ff; border-radius: 3px; box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0=
+ rgba(0,0,0,0.24); color: #263238; margin: 0 40px; text-align: center; widt=
+h: 580px;"><tr><td style=3D"padding-top: 40px;"></td></tr><tr><td><table st=
+yle=3D"margin-left: auto; margin-right: auto;" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tr><td bgcolor=3D"#00796b" style=3D"border-radius: 4px;"><a href=
+=3D"https://meet.google.com/gtc-jphq-rnk?hs=3D151" target=3D"_blank" style=
+=3D"background: #00796b; border-radius: 4px; color: #fff; display: inline-b=
+lock; font-family: 'Google Sans',Roboto,Arial,sans-serif; font-size: 14px; =
+font-weight: 500; letter-spacing: 0.54px; padding: 15px 18px; text-decorati=
+on: none; text-transform: uppercase;">Join Meeting</a></td></tr></table></t=
+d></tr><tr><td style=3D"padding-top: 24px;"><a aria-label=3D"meet.google.co=
+m/g t c - j p h q - r n k" href=3D"https://meet.google.com/gtc-jphq-rnk?hs=
+=3D151" target=3D"_blank" style=3D"color: #202124; display: block; font-siz=
+e: 13px; line-height: 24px; opacity: 0.87; text-decoration: none;">meet.goo=
+gle.com/gtc-jphq-rnk</a></td></tr><tr><td></td></tr><tr><td style=3D"paddin=
+g-top: 40px;"></td></tr></table></td></tr></table></body></html>
+--000000000000dfe15205c58523ae--

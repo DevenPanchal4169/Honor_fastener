@@ -1,21 +1,75 @@
 <!-- Footer Container -->
-<footer class="footer-container typefooter-5">
+<style>
+    .block-services .icon-service .icon i {
+        font-size: 36px;
+        font-weight: bold;
+        color: #4298f5;
+        width: 70px;
+        height: 70px;
+    }
+
+    .typefooter-6 .box-infos .list-icon li .icon, .typefooter-5 .box-infos .list-icon li .icon, .typefooter-6 .box-footer .modcontent ul.menu li a:hover, .typefooter-5 .box-footer .modcontent ul.menu li a:hover {
+        color: #4298f5;
+    }
+
+    .typefooter-6 .row-bottom:before, .typefooter-5 .row-bottom:before {
+        background-color: #4298f5;
+    }
+
+    .listingtab-layout5 .so-listing-tabs .wap-listing-tabs .ltabs-items-container .ltabs-loadmore .ltabs-loadmore-btn {
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #4298f5;
+        padding: 12px 35px;
+        border-radius: 30px;
+    }
+
+    .layout-5.common-home #content .module h3.modtitle span:after {
+        position: absolute;
+        content: "";
+        width: 8px;
+        height: 8px;
+        background-color: #4298f5;
+        top: 50%;
+        margin-top: -4px;
+        right: 0;
+        border-radius: 100%;
+    }
+
+    .layout-5.common-home #content .module h3.modtitle span:before {
+        position: absolute;
+        content: "";
+        width: 8px;
+        height: 8px;
+        background-color: #4298f5;
+        top: 50%;
+        margin-top: -4px;
+        right: 0;
+        border-radius: 100%;
+    }
+
+    ul > li > a:hover {
+        color: #4298f5 !important;
+    }
+
+        #change:{
+            color: white !important;
+        }
+</style>
+<footer class="footer-container typefooter-5" style="background-image: none; background-color: black">
     <!-- Footer middle Container -->
     <div class="container">
         <div class="row footer-middle">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
                 <div class="box-footer box-infos">
-                    <div class="module">
+                    <div class="module" id="chnage-color">
                         <h3 class="modtitle">Contact us</h3>
                         <div class="modcontent">
                             <ul class="list-icon">
                                 <li><span class="icon pe-7s-map-marker"></span>5611 Wellington Road, Suite 115,
                                     Gainesville, VA 20155
-                                </li>
-                                <li><span class="icon pe-7s-call"></span> <a href="#">7990488413</a></li>
-                                <li><span class="icon pe-7s-mail"></span><a
-                                        href="mailto:honorfastener@gmail.com">honorfastener@gmail.com</a></li>
-                                <li><span class="icon pe-7s-alarm"></span>7 Days a week from 10-00 am to 6-00 pm
                                 </li>
                             </ul>
                         </div>
@@ -25,52 +79,45 @@
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-style">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-style">
-                        <div class="box-information box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Information</h3>
+                        <div class="box-footer box-infos">
+                            <div class="module">
+                                <h3 class="modtitle">Mail Us</h3>
                                 <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Warranty And Services</a></li>
-                                        <li><a href="#">Support 24/7 page</a></li>
-                                        <li><a href="#">Product Registration</a></li>
-                                        <li><a href="#">Product Support</a></li>
+                                    <ul class="list-icon">
+                                        <li><span class="icon pe-7s-mail"></span>
+                                            <div id="change">
+                                                <a href="mailto:honorfastener@gmail.com">honorfastener@gmail.com</a>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-style">
-                        <div class="box-account box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">My Account</h3>
+                        <div class="box-footer box-infos">
+                            <div class="module">
+                                <h3 class="modtitle">Call us</h3>
                                 <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="#">Brands</a></li>
-                                        <li><a href="#">Gift Certificates</a></li>
-                                        <li><a href="#">Affiliates</a></li>
-                                        <li><a href="#">Specials</a></li>
-                                        <li><a href="#">FAQs</a></li>
-                                        <li><a href="#">Custom Link</a></li>
+                                    <ul class="list-icon">
+                                        <li><span class="icon pe-7s-call"></span>
+                                        <div id="change">
+                                            <a href="#">7990488413</a>
+                                        </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-clear">
-                        <div class="box-service box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Categories</h3>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-style">
+                        <div class="box-footer box-infos">
+                            <div class="module">
+                                <h3 class="modtitle">Working Day's</h3>
                                 <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="#">Event & Party Supplies</a></li>
-                                        <li><a href="#">Home Improvement</a></li>
-                                        <li><a href="#">Lamps & Light Fixtures</a></li>
-                                        <li><a href="#">Kitchen & Bath Fixtures</a></li>
-                                        <li><a href="#">Customer Service</a></li>
-                                        <li><a href="#">Kitchen & Dining</a></li>
+                                    <ul class="list-icon">
+                                        <li><span class="icon pe-7s-alarm"></span>7 Days a week from 10-00 am to 6-00 pm
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -88,16 +135,18 @@
                     <div class="socials-w">
                         <h3>Follow us by</h3>
                         <ul class="socials">
-                            <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100069775536352"
+                            <li class="facebook"><a href="https://www.facebook.com/Honor-Fastener-107395234921053"
                                                     target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li class="twitter"><a href="https://twitter.com/FastenerHonor" target="_blank"><i
-                                        class="fa fa-twitter"></i></a></li>
+                                            class="fa fa-twitter"></i></a></li>
                             <li class="google_plus"><a href="https://plus.google.com/u/0/+Smartaddons/posts"
                                                        target="_blank"><i class="fa fa-google-plus"></i></a></li>
                             <!--<li class="pinterest"><a href="https://www.pinterest.com/smartaddons/"
                                                      target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
-                            --><li class="instagram"><a href="https://instagram.com/honor.fastener?utm_medium=copy_link" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
+                            -->
+                            <li class="instagram"><a href="https://instagram.com/honor.fastener?utm_medium=copy_link"
+                                                     target="_blank"><i
+                                            class="fa fa-instagram"></i></a></li>
                             <!--<li class="Youtube"><a href="#" target="_blank"><i
                                     class="fa fa-youtube-play"></i></a></li>-->
                         </ul>
@@ -137,10 +186,9 @@
             <div class="row">
                 <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <p>Autoparts © 2019 Demo Store. All Rights Reserved. Designed by <a
-                            href="http://www.zaraind.com/" target="_blank">zaraind.com</a></p>
+                                href="http://www.zaraind.com/" target="_blank">zaraind.com</a></p>
                 </div>
                 <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <img src="image/catalog/demo/payment/payment.png" alt="imgpayment">
                 </div>
             </div>
         </div>

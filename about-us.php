@@ -1,4 +1,9 @@
 <?php include 'header.php' ?>
+<style>
+    ul > li > a {
+        color: black!important;
+    }
+</style>
 <div class="main-container container">
     <ul class="breadcrumb">
         <li><a href="index.php"><i class="fa fa-home"></i></a></li>
@@ -10,7 +15,7 @@
         <div id="content" class="col-sm-12">
             <div class="about-us about-demo-3">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 about-image"> <img src="image/demo/about/about-us-demo3.jpg" alt="About Us"> </div>
+                    <div class="col-lg-6 col-md-6 about-image"> <img src="image/fwd/Socket Screws.jpg" alt="About Us"> </div>
                     <div class="col-lg-6 col-md-6 about-info">
                         <h2 class="about-title">About Us</h2>
                         <div class="about-text">
@@ -66,7 +71,7 @@
 <!-- Footer Container -->
 <footer class="footer-container typefooter-1">
     <!-- Footer Top Container -->
-    <div class="row-top">
+   <!-- <div class="row-top">
         <div class="block-services container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-margin1">
@@ -108,6 +113,6 @@
 
             </div>
         </div>
-    </div>
+    </div>-->
 <?php include 'footer.php' ?>
 

@@ -5,7 +5,7 @@
 
     <!-- Basic page needs
     ============================================ -->
-    <title>Autoparts - Multipurpose Responsive HTML5 Template</title>
+    <title>Autoparts </title>
     <meta charset="utf-8">
     <meta name="keywords"
           content="html5 template, best html5 template, best html template, html5 basic template, multipurpose html5 template, multipurpose html template, creative html templates, creative html5 templates"/>
@@ -59,6 +59,22 @@
         body {
             font-family: 'Rubik', sans-serif;
         }
+
+        a:hover {
+            color: #4298f5 !important;
+        }
+
+        ul > li > a:hover {
+            color: #4298f5 !important;
+        }
+
+        ul > li > a {
+            color: black !important;
+        }
+
+        a > strong:hover {
+            color: #4298f5 !important;
+        }
     </style>
 
 </head>
@@ -76,46 +92,9 @@
             <div class="container">
                 <div class="row">
                     <div class="header-top-left col-lg-3 col-md-4 hidden-sm hidden-xs">
-                        <div class="telephone ">
-                            <i class="fa fa-phone"></i> Hotline: <a href="tel:888-943-446-000">888-943-446-000</a>
-                        </div>
+
                     </div>
                     <div class="header-top-right col-lg-9 col-md-8 col-sm-12 col-xs-12">
-                        <!-- <ul class="top-link list-inline lang-curr">
-                        <li class="currency">
-                            <div class="btn-group currencies-block">
-                                <form action="index.html" method="post" enctype="multipart/form-data" id="currency">
-                                    <a class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-                                        <span class="icon icon-credit "></span> $ US Dollar  <span class="fa fa-angle-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu btn-xs">
-                                        <li> <a href="#">(€)&nbsp;Euro</a></li>
-                                        <li> <a href="#">(£)&nbsp;Pounds    </a></li>
-                                        <li> <a href="#">($)&nbsp;US Dollar </a></li>
-                                    </ul>
-                                </form>
-                            </div>
-                        </li>
-                        <li class="language">
-                            <div class="btn-group languages-block ">
-                                <form action="index.html" method="post" enctype="multipart/form-data" id="bt-language">
-                                    <a class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-                                        <img src="image/catalog/flags/gb.png" alt="English" title="English">
-                                        <span class="eng">English</span>
-                                        <span class="fa fa-angle-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="index.html"><img class="image_flag" src="image/catalog/flags/gb.png" alt="English" title="English" /> English </a></li>
-                                        <li> <a href="html_with_RTL/index.html"> <img class="image_flag" src="image/catalog/flags/ar.png" alt="Arabic" title="Arabic" /> Arabic </a> </li>
-                                    </ul>
-                                </form>
-                            </div>
-
-                        </li>
-                    </ul> -->
-                        <ul class="top-log list-inline">
-                            <li><i class="fa fa-phone"></i><a href="login.html">Inquiry</a>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -152,13 +131,15 @@
 
                                                         <li class="">
                                                             <p class="close-menu"></p>
-                                                            <a href="index.php" class="clearfix">
+                                                            <a href="index.php" class="clearfix"
+                                                               style="color: black !important">
                                                                 <strong>Home</strong>
                                                             </a>
                                                         </li>
                                                         <li class="">
                                                             <p class="close-menu"></p>
-                                                            <a href="about-us.php" class="clearfix">
+                                                            <a href="about-us.php" class="clearfix"
+                                                               style="color: black !important">
                                                                 <strong>About</strong>
                                                             </a>
                                                         </li>
@@ -166,7 +147,8 @@
 
                                                         <li class="with-sub-menu hover">
                                                             <p class="close-menu"></p>
-                                                            <a href="#" class="clearfix">
+                                                            <a href="#best_product" class="clearfix"
+                                                               style="color: black !important">
                                                                 <strong>Products</strong>
 
                                                                 <b class="caret"></b>
@@ -179,18 +161,18 @@
                                                                             <div class="row">
                                                                                 <div class="col-md-4 img img1">
                                                                                     <a href="#"><img
-                                                                                            src="image/catalog/menu/megabanner/image-1.jpg"
-                                                                                            alt="banner1"></a>
+                                                                                                src="image/fwd/image002_9.jpg"
+                                                                                                alt="banner1"></a>
                                                                                 </div>
                                                                                 <div class="col-md-4 img img2">
                                                                                     <a href="#"><img
-                                                                                            src="image/catalog/menu/megabanner/image-2.jpg"
-                                                                                            alt="banner2"></a>
+                                                                                                src="image/fwd/image002_11.jpg"
+                                                                                                alt="banner2"></a>
                                                                                 </div>
                                                                                 <div class="col-md-4 img img3">
-                                                                                    <a href="#"><img
-                                                                                            src="image/catalog/menu/megabanner/image-3.jpg"
-                                                                                            alt="banner3"></a>
+                                                                                    <a href="#"><img style="margin-top: 40px"
+                                                                                                src="image/fwd/image002_10.jpg"
+                                                                                                alt="banner3"></a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -208,18 +190,19 @@
                                                                                                     Screw</a>
                                                                                             </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Car
-                                                                                                    Audio &amp;
-                                                                                                    Speakers</a>
+                                                                                                   class="main-menu">Machine
+                                                                                                    Screw</a>
                                                                                             </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Gadgets
-                                                                                                    &amp; Auto
-                                                                                                    Parts</a></li>
+                                                                                                   class="main-menu">Sheet
+                                                                                                    Metal Screw</a></li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">More
-                                                                                                    Car
-                                                                                                    Accessories</a>
+                                                                                                   class="main-menu">Self-Drilling
+                                                                                                    Screw</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Set
+                                                                                                    Screw</a>
                                                                                             </li>
                                                                                         </ul>
                                                                                     </div>
@@ -227,24 +210,60 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-4">
-                                                                            <a href="#"
-                                                                               class="title-submenu">Head Style</a>
                                                                             <div class="row">
-                                                                                <div class="col-md-12 hover-menu">
+                                                                                <div class="col-md-6 hover-menu">
+                                                                                    <a href="#"
+                                                                                       class="title-submenu">Head Style</a>
+
                                                                                     <div class="menu">
                                                                                         <ul>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Bathroom</a>
+                                                                                                   class="main-menu">Flat</a>
                                                                                             </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Bedroom</a>
+                                                                                                   class="main-menu">Fillister</a>
                                                                                             </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Decor</a>
+                                                                                                   class="main-menu">Oval</a>
                                                                                             </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Living
-                                                                                                    room</a></li>
+                                                                                                   class="main-menu">Pan</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Truss</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Round</a>
+                                                                                            </li>
+
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6 hover-menu">
+                                                                                    <a href="#"
+                                                                                       class="title-submenu">Head Style</a>
+
+                                                                                    <div class="menu">
+                                                                                        <ul>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Binding</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Botton</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">PF</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Cheese</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">Cylinder</a>
+                                                                                            </li>
+                                                                                            <li><a href="#"
+                                                                                                   class="main-menu">With
+                                                                                                    Washer</a>
+                                                                                            </li>
                                                                                         </ul>
                                                                                     </div>
                                                                                 </div>
@@ -258,14 +277,15 @@
                                                                                     <div class="menu">
                                                                                         <ul>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Earings</a>
+                                                                                                   class="main-menu">Phillips
+                                                                                                    and Frearson</a>
                                                                                             </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Wedding
-                                                                                                    Rings</a></li>
+                                                                                                   class="main-menu">Slotted</a>
+                                                                                            </li>
                                                                                             <li><a href="#"
-                                                                                                   class="main-menu">Men
-                                                                                                    Watches</a></li>
+                                                                                                   class="main-menu">Combination</a>
+                                                                                            </li>
                                                                                         </ul>
                                                                                     </div>
                                                                                 </div>
@@ -276,59 +296,13 @@
                                                             </div>
                                                         </li>
 
-
-                                                        <li class="with-sub-menu hover">
-                                                            <p class="close-menu"></p>
-                                                            <a href="#" class="clearfix">
-                                                                <strong>Services</strong>
-                                                                <b class="caret"></b>
-                                                            </a>
-                                                            <div class="sub-menu" style="width: 40%; ">
-                                                                <div class="content">
-                                                                    <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <ul class="row-list">
-                                                                                <li><a class="subcategory_item"
-                                                                                       href="faq.html">FAQ</a></li>
-
-                                                                                <li><a class="subcategory_item"
-                                                                                       href="sitemap.html">Site
-                                                                                        Map</a></li>
-                                                                                <li><a class="subcategory_item"
-                                                                                       href="contact.php">Contact
-                                                                                        us</a></li>
-                                                                                <li><a class="subcategory_item"
-                                                                                       href="banner-effect.html">Banner
-                                                                                        Effect</a></li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
                                                         <li class="">
                                                             <p class="close-menu"></p>
-                                                            <a href="#" class="clearfix">
-                                                                <strong>Gallery</strong>
-                                                            </a>
-                                                        </li>
-
-                                                        <li class="">
-                                                            <p class="close-menu"></p>
-                                                            <a href="contact.php" class="clearfix">
+                                                            <a href="contact.php" class="clearfix"
+                                                               style="color: black !important;">
                                                                 <strong>Contact</strong>
                                                             </a>
                                                         </li>
-
-
-                                                        <!-- <li class="">
-                                                        <p class="close-menu"></p>
-                                                        <a href="blog-page.html" class="clearfix">
-                                                            <strong>Blog</strong>
-                                                            <span class="label"></span>
-                                                        </a>
-                                                    </li> -->
 
 
                                                     </ul>
