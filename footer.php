@@ -185,8 +185,7 @@
         <div class="container">
             <div class="row">
                 <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <p>Autoparts © 2019 Demo Store. All Rights Reserved. Designed by <a
-                                href="http://www.zaraind.com/" target="_blank">zaraind.com</a></p>
+                    <p>Honor Fastener © <?= date('Y')?> . All Rights Reserved.</p>
                 </div>
                 <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 </div>

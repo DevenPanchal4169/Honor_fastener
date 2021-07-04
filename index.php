@@ -4,6 +4,9 @@
     html{
         scroll-behavior: smooth;
     }
+    .htag{
+        color: black !important;
+    }
     .block-services .icon-service .icon i{
         font-size: 36px;
         font-weight: bold;
@@ -51,7 +54,7 @@
 </style>
 <div class="main-container">
     <div id="content">
-        <img src="image/catalog/slideshow/home5/banner1.jpg" alt="slider1"
+        <img src="image/fwd/logo2.jpg" alt="slider1"
              class="img-responsive">
        <!-- <div class="slider-container">
             <div class="module sohomepage-slider ">
@@ -114,46 +117,49 @@
                                     </div>
                                     <!-- End Tabs-->
                                 </div>
+                                <h4 class="text-center htag"><b>Screw Types</b></h4>
+                                <hr>
                                 <div class="row">
                                     <div class="col-md-4 text-center">
                                         <div class="product-layout product-grid" style="margin-bottom: 20px">
                                             <div class="product-item-containersss item--static" >
                                                 <div class="left-block">
                                                     <div class="product-image-container second_img">
-                                                        <img src="image/fwd/image001_7.jpg"
+                                                        <img src="image/fwd/Machine%20.jpeg"
                                                              alt="image1">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <label><b>Self-Drilling Screw</b></label>
+                                        <label><b>NS Machine Screw</b></label>
                                     </div>
                                     <div class="col-md-4 text-center">
-                                        <div class="product-layout product-grid" style="margin-bottom: 20px">
-                                            <div class="product-item-containersss item--static" >
-                                                <div class="left-block">
-                                                    <div class="product-image-container  second_img">
-                                                        <img src="image/fwd/image003_2.png"
-                                                             alt="image1">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <label for=""><b>Drilling Screw</b></label>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="product-layout product-grid" style="margin-bottom: 20px">
+                                        <div class="product-layout product-grid">
                                             <div class="product-item-containersss item--static" >
                                                 <div class="left-block">
                                                     <div class="product-image-container second_img">
-                                                        <img src="image/fwd/image001_3.jpg"
+                                                        <img src="image/fwd/Sheet.jpeg"
                                                              alt="image1">
                                                     </div>
                                                     <!--end quickview-->
                                                 </div>
                                             </div>
                                         </div>
-                                        <label><b>Oval Screw</b></label>
+                                        <label for="" style="margin-top: 30px"><b>NS Sheet Metal Screw</b></label>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="product-layout product-grid" style="margin-bottom: 20px">
+                                            <div class="product-item-containersss item--static" >
+                                                <div class="left-block">
+                                                    <div class="product-image-container second_img">
+                                                        <img src="image/fwd/Wood.jpeg"
+                                                             alt="image1">
+                                                    </div>
+                                                    <!--end quickview-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <label><b>NS Wood Screw</b></label>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -162,28 +168,27 @@
                                             <div class="product-item-containersss item--static" >
                                                 <div class="left-block">
                                                     <div class="product-image-container second_img">
-                                                        <img src="image/fwd/image002_7.jpg"
+                                                        <img src="image/fwd/Set.jpeg"
                                                              alt="image1">
                                                     </div>
                                                     <!--end quickview-->
                                                 </div>
                                             </div>
                                         </div>
-                                        <label for=""><b>Set Screw</b></label>
+                                        <label for=""><b>NS Set Screw</b></label>
                                     </div>
                                     <div class="col-md-6 text-center">
-                                        <div class="product-layout product-grid">
+                                        <div class="product-layout product-grid" style="margin-bottom: 20px">
                                             <div class="product-item-containersss item--static" >
                                                 <div class="left-block">
-                                                    <div class="product-image-container second_img">
-                                                        <img src="image/fwd/image001_2.jpg"
+                                                    <div class="product-image-container  second_img">
+                                                        <img src="image/fwd/Self.jpeg"
                                                              alt="image1">
                                                     </div>
-                                                    <!--end quickview-->
                                                 </div>
                                             </div>
                                         </div>
-                                        <label for="" style="margin-top: 30px"><b>Truss Screw</b></label>
+                                        <label for=""><b>NS Self-Drilling Screw</b></label>
                                     </div>
                                 </div>
                                 <!--<div class="wap-listing-tabs products-list grid">
@@ -249,41 +254,104 @@
                 </div>
 
             </div>
-            <div class="row-banners" style="border: 1px solid black">
-                <div class="banners banners1">
-                    <div class="item item1">
-                        <a href="#"><img src="image/fwd/MAG-FORM.jpg" alt="banner"></a>
-                    </div>
-                    <div class="item item2">
-                        <a href="#"><img src="image/fwd/DST Thread-Forming Screws.jpg" alt="banner"></a>
-                    </div>
-                    <div class="item item3">
-                        <a href="#"><img src="image/fwd/Delta PT-screws.jpg" alt="banner"></a>
+            <div class="container">
+                <h4 class="text-center htag"><b>Head Style</b></h4>
+                <hr>
+            <!--<div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="item item1">
+                                <a href="#"><img src="image/fwd/image001_6 (1).jpg" alt="banner"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="item item1">
+                                <a href="#"><img src="image/fwd/image001_5 (11).jpg" alt="banner"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="item item1">
+                                <a href="#"><img src="image/fwd/image001_111.jpg" alt="banner"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
             </div>
+                <div class="row" style="background-color: white!important;">
+                    <div class="col-md-4">
+                        <div class="item item1">
+                            <img src="image/fwd/h11.jpeg" alt="banner">
+                            <p class="text-center"><b>Phillips</b></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item item1">
+                            <img src="image/fwd/h22.jpeg" alt="banner">
+                            <p class="text-center"><b>Slotted</b></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item item1">
+                            <img src="image/fwd/h33.jpeg" alt="banner">
+                            <p class="text-center"><b>Combination</b></p>
+                        </div>
+                    </div>
+                </div>
+            <!--<div class="row-banners">
+                <div class="banners banners1">
 
+                </div>
+            </div>-->
+            <hr>
             <div class="row-brands">
                 <div class="slider-brands container">
+                    <h4 class="text-center htag"><b>Driver Types</b></h4>
                     <div class="yt-content-slider contentslider" data-rtl="no" data-loop="yes"
                          data-autoplay="no" data-autoheight="no" data-autowidth="no" data-delay="4"
                          data-speed="0.6" data-margin="0" data-items_column00="6" data-items_column0="6"
                          data-items_column1="5" data-items_column2="3" data-items_column3="2"
                          data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes"
                          data-hoverpause="yes">
-                        <div class="item"><a href="#"><img src="image/fwd/Taptite 2000_1.jpg" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/flat.jpeg" alt="brand"></a>
+
+                            <p class="text-center"><b>Fillister</b></p>
                         </div>
-                        <div class="item"><a href="#"><img src="image/fwd/Tek.webp" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/Fillister.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Flat</b></p>
                         </div>
-                        <div class="item"><a href="#"><img src="image/fwd/Torx-plus-machine-screws.jpg" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/Oval.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Oval</b></p>
                         </div>
-                        <div class="item"><a href="#"><img src="image/fwd/Wedgelock_1.jpg" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/Pan.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Pan</b></p>
                         </div>
-                        <div class="item"><a href="#"><img src="image/fwd/Socket Screws.jpg" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/Truss.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Truss</b></p>
                         </div>
-                        <div class="item"><a href="#"><img src="image/fwd/Screw-spikes_1.jpg" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/Round.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Round</b></p>
                         </div>
-                        <div class="item"><a href="#"><img src="image/fwd/MAG-FORM.jpg" alt="brand"></a>
+                        <div class="item"><a href="#"><img src="image/fwd/Binding.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Binding</b></p>
+                        </div>
+                        <div class="item"><a href="#"><img src="image/fwd/Botton.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Botton</b></p>
+                        </div>
+                        <div class="item"><a href="#"><img src="image/fwd/PH.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>PH</b></p>
+                        </div>
+                        <div class="item"><a href="#"><img src="image/fwd/Washer.jpeg" alt="brand"></a>
+                            <p class="text-center"><b>Washer</b></p>
                         </div>
                     </div>
 

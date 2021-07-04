@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="logo-w col-lg-3 col-md-3 col-sm-4 col-xs-12">
                         <div class="logo">
-                            <a href="index.php"><img src="image/catalog/logo.jpg" title="Your Store"
+                            <a href="index.php"><img src="image/fwd/banner2.jpg" title="Your Store"
                                                      alt="Your Store"/></a>
                         </div>
                     </div>
