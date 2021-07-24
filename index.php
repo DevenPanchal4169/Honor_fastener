@@ -6,6 +6,7 @@
     }
     .htag{
         color: black !important;
+        margin-top: 10px;
     }
     .block-services .icon-service .icon i{
         font-size: 36px;
@@ -98,8 +99,6 @@
                                      data-type_show="loadmore">
                                     <!--Begin Tabs-->
                                     <div class="ltabs-tabs-wrap">
-                                        <span class="ltabs-tab-selected">Brake Parts</span> <span
-                                                class="ltabs-tab-arrow">▼</span>
                                         <div class="item-sub-cat">
                                             <ul class="ltabs-tabs cf">
                                                 <li class="ltabs-tab tab-sel" data-category-id="34"
@@ -254,8 +253,9 @@
                 </div>
 
             </div>
+            <hr>
             <div class="container">
-                <h4 class="text-center htag"><b>Head Style</b></h4>
+                <h4 class="text-center htag"><b>Driver Types</b></h4>
                 <hr>
             <!--<div class="row">
                 <div class="col-md-4">
@@ -307,15 +307,9 @@
                         </div>
                     </div>
                 </div>
-            <!--<div class="row-banners">
-                <div class="banners banners1">
-
-                </div>
-            </div>-->
-            <hr>
             <div class="row-brands">
                 <div class="slider-brands container">
-                    <h4 class="text-center htag"><b>Driver Types</b></h4>
+                    <h4 class="text-center htag"><b>Head Style</b></h4>
                     <div class="yt-content-slider contentslider" data-rtl="no" data-loop="yes"
                          data-autoplay="no" data-autoheight="no" data-autowidth="no" data-delay="4"
                          data-speed="0.6" data-margin="0" data-items_column00="6" data-items_column0="6"
@@ -357,6 +351,12 @@
 
                 </div>
             </div>
+            <!--<div class="row-banners">
+                <div class="banners banners1">
+
+                </div>
+            </div>-->
+
 
 
            <!-- <div class="row-color">

@@ -54,9 +54,9 @@
         color: #4298f5 !important;
     }
 
-        #change:{
-            color: white !important;
-        }
+    #change: {
+        color: white !important;
+    }
 </style>
 <footer class="footer-container typefooter-5" style="background-image: none; background-color: black">
     <!-- Footer middle Container -->
@@ -68,8 +68,14 @@
                         <h3 class="modtitle">Contact us</h3>
                         <div class="modcontent">
                             <ul class="list-icon">
-                                <li><span class="icon pe-7s-map-marker"></span>5611 Wellington Road, Suite 115,
-                                    Gainesville, VA 20155
+                                <li><span class="icon pe-7s-map-marker"></span>
+                                    <div id="change">
+                                        <a href="https://goo.gl/maps/qXRFkVDVtZPNXV1V8" target="_blank">
+                                            Jamnagar - Khambhalia Bypass Road, Near Railway Over bridge,
+                                            Plot No 3, Vishwanath-5
+                                            Jamnagar, Gujarat 361001
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -101,9 +107,9 @@
                                 <div class="modcontent">
                                     <ul class="list-icon">
                                         <li><span class="icon pe-7s-call"></span>
-                                        <div id="change">
-                                            <a href="#">7990488413</a>
-                                        </div>
+                                            <div id="change">
+                                                <a href="#">7990488413</a>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
@@ -185,7 +191,7 @@
         <div class="container">
             <div class="row">
                 <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <p>Honor Fastener © <?= date('Y')?> . All Rights Reserved.</p>
+                    <p>Honor Fastener © <?= date('Y') ?> . All Rights Reserved.</p>
                 </div>
                 <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 </div>

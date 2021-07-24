@@ -3,6 +3,12 @@
     ul > li > a {
         color: black!important;
     }
+    .about-title{
+        margin-top: 80px;
+    }
+    .about-text{
+        margin-top: 50px;
+    }
 </style>
 <div class="main-container container">
     <ul class="breadcrumb">
@@ -15,49 +21,21 @@
         <div id="content" class="col-sm-12">
             <div class="about-us about-demo-3">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 about-image"> <img src="image/fwd/Socket Screws.jpg" alt="About Us"> </div>
+                    <div class="col-lg-6 col-md-6 about-image"> <img src="image/fwd/Octolok.jpg" alt="About Us"> </div>
                     <div class="col-lg-6 col-md-6 about-info">
-                        <h2 class="about-title">About Us</h2>
+                        <h2 class="about-title text-center">About Us</h2>
                         <div class="about-text">
-                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-                            <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                           <p> We are supplying to best quality MS Fastener. Honor Fastener team has around 20 years wide experience to manufacturing different types of MS and Brass screws, Our base location and small scale manufacturing unit is in Jamnagar. Our short term planning is extend our manufacturing unit and deliver best quality screws to our customers.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 skills-description">
-                        <h2 class="about-title">Our Skills</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                            <br> Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, </p>
+                        <h2 class="about-title text-center">Object</h2>
+                        <p>“Always our customers will satisfied with our product quality is our goal”   </p>
                     </div>
                     <div class="col-lg-6 col-md-6 skills-value">
-                        <ul class="value-list blank">
-                            <li class="item">
-                                <p class="label-skill">Skill Lorem ipsum:</p>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                        40%
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <p class="label-skill">Skill donec pede:</p>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                                        50%
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="item">
-                                <p class="label-skill">Skill nulla consequat:</p>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                                        70%
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                       <img src="image/fwd/Pushtite Screws.jpg" alt="About Us">
                     </div>
                 </div>
             </div>
