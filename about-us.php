@@ -21,8 +21,8 @@
         <div id="content" class="col-sm-12">
             <div class="about-us about-demo-3">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 about-image"> <img src="image/fwd/Octolok.jpg" alt="About Us"> </div>
-                    <div class="col-lg-6 col-md-6 about-info">
+                   <!-- <div class="col-lg-6 col-md-6 about-image"> <img src="image/fwd/Octolok.jpg" alt="About Us"> </div>-->
+                    <div class="col-lg-12 col-md-12 about-info">
                         <h2 class="about-title text-center">About Us</h2>
                         <div class="about-text">
                            <p> We are supplying to best quality MS Fastener. Honor Fastener team has around 20 years wide experience to manufacturing different types of MS and Brass screws, Our base location and small scale manufacturing unit is in Jamnagar. Our short term planning is extend our manufacturing unit and deliver best quality screws to our customers.</p>
@@ -30,12 +30,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 skills-description">
+                    <div class="col-lg-12 col-md-12 skills-description text-center">
                         <h2 class="about-title text-center">Object</h2>
                         <p>“Always our customers will satisfied with our product quality is our goal”   </p>
                     </div>
-                    <div class="col-lg-6 col-md-6 skills-value">
-                       <img src="image/fwd/Pushtite Screws.jpg" alt="About Us">
+                    <div class="col-lg-12 col-md-12 skills-value">
+                      <!-- <img src="image/fwd/Pushtite Screws.jpg" alt="About Us">-->
                     </div>
                 </div>
             </div>

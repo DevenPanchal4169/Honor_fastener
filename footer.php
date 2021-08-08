@@ -92,7 +92,7 @@
                                     <ul class="list-icon">
                                         <li><span class="icon pe-7s-mail"></span>
                                             <div id="change">
-                                                <a href="mailto:honorfastener@gmail.com">honorfastener@gmail.com</a>
+                                                <a href="mailto:info@honorfastener.com">info@honorfastener.com</a>
                                             </div>
                                         </li>
                                     </ul>
@@ -106,7 +106,7 @@
                                 <h3 class="modtitle">Call us</h3>
                                 <div class="modcontent">
                                     <ul class="list-icon">
-                                        <li><span class="icon pe-7s-call"></span>
+                                        <li><span class="icon fa fa-whatsapp"></span>
                                             <div id="change">
                                                 <a href="#">7990488413</a>
                                             </div>
@@ -122,7 +122,7 @@
                                 <h3 class="modtitle">Working Day's</h3>
                                 <div class="modcontent">
                                     <ul class="list-icon">
-                                        <li><span class="icon pe-7s-alarm"></span>7 Days a week from 10-00 am to 6-00 pm
+                                        <li><span class="icon pe-7s-alarm"></span>Saturday to Thursday 9 am to 6 pm
                                         </li>
                                     </ul>
                                 </div>
@@ -161,8 +161,8 @@
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                     <div class="module newsletter-footer1">
                         <div class="newsletter">
-                            <h3 class="modtitle">Sign Up for Newsletter</h3>
-                            <div class="block_content">
+                          <!--  <h3 class="modtitle">Sign Up for Newsletter</h3>-->
+                           <!-- <div class="block_content">
                                 <form method="post" id="signup" name="signup"
                                       class="form-group form-inline signup send-mail">
                                     <div class="form-group">
@@ -178,7 +178,7 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>

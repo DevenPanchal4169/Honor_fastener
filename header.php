@@ -5,7 +5,7 @@
 
     <!-- Basic page needs
     ============================================ -->
-    <title>Fastener Jamnagar </title>
+    <title>Honor Fastener Jamnagar </title>
     <meta charset="utf-8">
     <meta name="keywords"
           content="html5 template, best html5 template, best html template, html5 basic template, multipurpose html5 template, multipurpose html template, creative html templates, creative html5 templates"/>
@@ -147,13 +147,15 @@
 
                                                         <li class="with-sub-menu hover">
                                                             <p class="close-menu"></p>
-                                                            <a href="#best_product" class="clearfix"
+                                                            <a href="product.php" class="clearfix"
                                                                style="color: black !important">
                                                                 <strong>Products</strong>
 
                                                                 <b class="caret"></b>
                                                             </a>
-                                                            <div class="sub-menu"
+
+
+                                                        <!--    <div class="sub-menu"
                                                                  style="width: 100%; display: none;">
                                                                 <div class="content">
                                                                     <div class="row">
@@ -181,7 +183,7 @@
                                                                         <div class="col-md-4">
                                                                             <a href="#"
                                                                                class="title-submenu">Screw Types</a>
-                                                                            <div class="row">
+                                                                               <div class="row">
                                                                                 <div class="col-md-12 hover-menu">
                                                                                     <div class="menu">
                                                                                         <ul>
@@ -293,7 +295,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
+                                                            </div>-->
                                                         </li>
 
                                                         <li class="">
